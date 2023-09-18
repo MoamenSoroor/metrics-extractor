@@ -2,8 +2,9 @@
 
 ## Important
 To extract metrics correctly, 
-Please insure of the following
+Please ensure the following:
 - you installed <a href='https://www.nuget.org/packages/Microsoft.CodeAnalysis.Metrics/'> Microsoft.CodeAnalysis.Metrics</a> package in all the projects you want to analyze.
+- you have <a href='https://dotnet.microsoft.com/en-us/download/dotnet/5.0'>Dotnet5 Sdk</a> installed on your machine 
 - you have msbuild defined in environment variables (system path variable)
 	* For VS2019 the path was %ProgramFiles(x86)%\Microsoft Visual Studio\2019\<YOUR_VS_EDITION>\MSBuild\Current\Bin
 
