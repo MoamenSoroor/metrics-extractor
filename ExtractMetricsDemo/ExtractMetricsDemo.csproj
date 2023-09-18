@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Metrics">
+      <HintPath>..\..\dotnet-rosyln-analyzers\roslyn-analyzers-5.0.3\artifacts\bin\Metrics\Release\net472\Metrics.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

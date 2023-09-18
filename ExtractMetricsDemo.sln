@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtractMetricsDemo", "ExtractMetricsDemo\ExtractMetricsDemo.csproj", "{CBFCF31F-342A-41D4-A7B3-4DBFEED989E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsExtractorDemo2", "MetricsExtractorDemo2\MetricsExtractorDemo2.csproj", "{C01C1F6E-B4B9-4FE5-BD67-91BEF01D3967}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBFCF31F-342A-41D4-A7B3-4DBFEED989E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBFCF31F-342A-41D4-A7B3-4DBFEED989E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBFCF31F-342A-41D4-A7B3-4DBFEED989E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBFCF31F-342A-41D4-A7B3-4DBFEED989E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C01C1F6E-B4B9-4FE5-BD67-91BEF01D3967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C01C1F6E-B4B9-4FE5-BD67-91BEF01D3967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C01C1F6E-B4B9-4FE5-BD67-91BEF01D3967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C01C1F6E-B4B9-4FE5-BD67-91BEF01D3967}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {238C8BBD-3FB4-4E1A-BEA0-FFE8C5D64230}
+	EndGlobalSection
+EndGlobal
