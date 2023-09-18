@@ -1,5 +1,6 @@
-# Extract Metrics Demo
-
+# Extract Code Metrics Demo
+ a solution to get project code metrics as objects in memory from the result of msbuild
+ based on Microsoft docs <a href='https://learn.microsoft.com/en-us/visualstudio/code-quality/how-to-generate-code-metrics-data?view=vs-2022#microsoftcodeanalysismetrics-nuget-package'>How to: Generate code metrics data</a>
 ## Important
 To extract metrics correctly, 
 Please ensure the following:
@@ -10,7 +11,8 @@ Please ensure the following:
 
 	* For VS2022 the path was %ProgramFiles%\Microsoft Visual Studio\2022\<YOUR_VS_EDITION>\MSBuild\Current\Bin
 
-	* where <YOUR_VS_EDITION> matches the Visual Studio edition that you have installed, i.e., Preview, Community, Professional, Enterprise.
+	* where <YOUR_VS_EDITION> matches the Visual Studio edition you installed, i.e., Preview, Community, Professional, Enterprise.
+- this solution consumes large memory, so in large projects consider having enough memory before running it!   
 
 ## Consume the Metrics
 ```cs
