@@ -28,10 +28,16 @@ Please insure of the following
 
 
 ## Shape of the Result Object
-each entry in the dictionary has following shape 
-the Key is compined of ProjectName::Namespace::TypeName::MemeberName
+each entry in the dictionary has the following shape 
+
+the Key is composed of four sections "ProjectName::Namespace::TypeName::MemberName"
+- for project metrics, the key will be only projectName
+- for namespace metrics, the key will be "ProjectName::Namespace:"
+- For type metrics, the key will be "ProjectName::Namespace::TypeName"
+- for members metrics, the key will be "ProjectName::Namespace::TypeName::MemberName"
+  
 the value has the metrics information of each member
-and the Member key Information.
+and the Member key Information as the JSON below.
 ```json
 {
   "Key": "SalesManProblem.Algorithm.csproj::SalesManProblem::Extensions",
