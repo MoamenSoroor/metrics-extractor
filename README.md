@@ -5,7 +5,9 @@
 To extract metrics correctly, 
 Please ensure the following:
 - you installed <a href='https://www.nuget.org/packages/Microsoft.CodeAnalysis.Metrics/'> Microsoft.CodeAnalysis.Metrics</a> package in all the projects you want to analyze.
-- you have <a href='https://dotnet.microsoft.com/en-us/download/dotnet/5.0'>Dotnet5 Sdk</a> installed on your machine 
+- you have <a href='https://dotnet.microsoft.com/en-us/download/dotnet/5.0'>Dotnet5 Sdk</a> installed on your machine
+- install the workload of <a href='https://learn.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-build-tools?view=vs-2017#web-development-build-tools?WT.mc_id=DT-MVP-5002999'>Microsoft.VisualStudio.Workload.WebBuildTools</a>.
+  You can install it by downloading the build tools installer from here (<a href='https://download.visualstudio.microsoft.com/download/pr/aab801bf-dcd0-4d7c-8552-a0c3b4fee032/5a2cee2a57d38e90f6a555044782097f/vs_buildtools.exe'>vs2019</a>)
 - you have msbuild defined in environment variables (system path variable)
 	* For VS2019 the path was %ProgramFiles(x86)%\Microsoft Visual Studio\2019\<YOUR_VS_EDITION>\MSBuild\Current\Bin
 
