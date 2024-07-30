@@ -1,0 +1,4517 @@
+{
+  "PatientProblems.BL.csproj::PatientProblems.BL": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "87"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "133"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "68"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "960"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "281"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL",
+      "MemberType": "Assembly",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\Interfaces\\ILookUPManagerFactory.cs",
+      "Line": "1",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "79"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "45"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "56"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "552"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "194"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers",
+      "MemberType": "Namespace",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ChiefComplaintManager.cs",
+      "Line": "18",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "62"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "17"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "24"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "193"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "70"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ChiefComplaintManager.cs",
+      "Line": "20",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::IChiefComplaintRepository ChiefComplaintManager._chiefComplaintRepository": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::IChiefComplaintRepository ChiefComplaintManager._chiefComplaintRepository",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ChiefComplaintManager.cs",
+      "Line": "23",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::IUserInfo ChiefComplaintManager._UserInfo": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::IUserInfo ChiefComplaintManager._UserInfo",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ChiefComplaintManager.cs",
+      "Line": "24",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::ChiefComplaintManager.ChiefComplaintManager(IChiefComplaintRepository ChiefComplaintRepository, IUserInfo userInfo)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "85"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "2"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::ChiefComplaintManager.ChiefComplaintManager(IChiefComplaintRepository ChiefComplaintRepository, IUserInfo userInfo)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ChiefComplaintManager.cs",
+      "Line": "25",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::ChiefComplaint ChiefComplaintManager.GetChiefComplaintByID(long ChiefComplaintID)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "73"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "13"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "5"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::ChiefComplaint ChiefComplaintManager.GetChiefComplaintByID(long ChiefComplaintID)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ChiefComplaintManager.cs",
+      "Line": "31",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::ChiefComplaintModel ChiefComplaintManager.GetChiefComplaintByVisitID(long VisitID)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "63"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "10"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "30"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "6"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::ChiefComplaintModel ChiefComplaintManager.GetChiefComplaintByVisitID(long VisitID)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ChiefComplaintManager.cs",
+      "Line": "45",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::IQueryable\u003CChiefComplaint\u003E ChiefComplaintManager.GetRelatedVisitChiefComplaint(long visitID)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "58"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "20"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "30"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "14"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::IQueryable\u003CChiefComplaint\u003E ChiefComplaintManager.GetRelatedVisitChiefComplaint(long visitID)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ChiefComplaintManager.cs",
+      "Line": "76",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ChiefComplaintManager.cs",
+          "LineNumber": 50,
+          "ColumnNumber": 37,
+          "ContainingMethodName": "GetChiefComplaintByVisitID",
+          "ContainingTypeName": "ChiefComplaintManager"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::SaveResult ChiefComplaintManager.AddChiefComplaint(ChiefComplaint chiefComplaint)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "61"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "6"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "27"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "12"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::SaveResult ChiefComplaintManager.AddChiefComplaint(ChiefComplaint chiefComplaint)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ChiefComplaintManager.cs",
+      "Line": "107",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::bool ChiefComplaintManager.CheckChiefComplaintAdded(long VisitID)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "73"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "6"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "13"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "5"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::bool ChiefComplaintManager.CheckChiefComplaintAdded(long VisitID)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ChiefComplaintManager.cs",
+      "Line": "134",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ChiefComplaintManager.cs",
+          "LineNumber": 114,
+          "ColumnNumber": 47,
+          "ContainingMethodName": "AddChiefComplaint",
+          "ContainingTypeName": "ChiefComplaintManager"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::SaveResult ChiefComplaintManager.EditChiefComplaint(ChiefComplaint chiefComplaintObj, string ModifiedTS)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "60"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "6"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "30"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "13"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::SaveResult ChiefComplaintManager.EditChiefComplaint(ChiefComplaint chiefComplaintObj, string ModifiedTS)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ChiefComplaintManager.cs",
+      "Line": "148",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::SaveResult ChiefComplaintManager.DeleteChiefComplaint(long chiefComplaintID, string modifiedTS)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "60"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "7"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "32"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "13"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ChiefComplaintManager::SaveResult ChiefComplaintManager.DeleteChiefComplaint(long chiefComplaintID, string modifiedTS)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ChiefComplaintManager.cs",
+      "Line": "179",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ClassManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "86"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "8"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "21"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "4"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ClassManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ClassManager.cs",
+      "Line": "17",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ClassManager::IClassRepository ClassManager._classrepository": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ClassManager::IClassRepository ClassManager._classrepository",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ClassManager.cs",
+      "Line": "19",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ClassManager::ClassManager.ClassManager(IClassRepository classrepository)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "96"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "1"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ClassManager::ClassManager.ClassManager(IClassRepository classrepository)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ClassManager.cs",
+      "Line": "20",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ClassManager::IQueryable\u003CtblClass\u003E ClassManager.Get()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "95"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "1"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ClassManager::IQueryable\u003CtblClass\u003E ClassManager.Get()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ClassManager.cs",
+      "Line": "25",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\DiseaseManagerFactory.cs",
+          "LineNumber": 35,
+          "ColumnNumber": 66,
+          "ContainingMethodName": "Get",
+          "ContainingTypeName": "DiseaseManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ClassManager::IQueryable\u003CMenueModel\u003E ClassManager.GetMenu()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "81"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "7"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "8"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "2"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ClassManager::IQueryable\u003CMenueModel\u003E ClassManager.GetMenu()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ClassManager.cs",
+      "Line": "29",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::DiseaseCategoryManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "81"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "9"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "16"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "4"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::DiseaseCategoryManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\DiseaseCategoryManager.cs",
+      "Line": "17",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::DiseaseCategoryManager::ICategoryRepository DiseaseCategoryManager._categoryrepository": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::DiseaseCategoryManager::ICategoryRepository DiseaseCategoryManager._categoryrepository",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\DiseaseCategoryManager.cs",
+      "Line": "19",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::DiseaseCategoryManager::DiseaseCategoryManager.DiseaseCategoryManager(ICategoryRepository categorypository)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "96"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "1"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::DiseaseCategoryManager::DiseaseCategoryManager.DiseaseCategoryManager(ICategoryRepository categorypository)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\DiseaseCategoryManager.cs",
+      "Line": "20",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::DiseaseCategoryManager::IQueryable\u003CMenueModel\u003E DiseaseCategoryManager.Get()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "76"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "8"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "7"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "3"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::DiseaseCategoryManager::IQueryable\u003CMenueModel\u003E DiseaseCategoryManager.Get()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\DiseaseCategoryManager.cs",
+      "Line": "25",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::DiseaseManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "94"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "17"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "2"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::DiseaseManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\DiseaseManager.cs",
+      "Line": "17",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::DiseaseManager::IDiseaseRepository DiseaseManager._diseaseRepository": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::DiseaseManager::IDiseaseRepository DiseaseManager._diseaseRepository",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\DiseaseManager.cs",
+      "Line": "19",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::DiseaseManager::DiseaseManager.DiseaseManager(IDiseaseRepository diseaseRepository)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "96"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "1"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::DiseaseManager::DiseaseManager.DiseaseManager(IDiseaseRepository diseaseRepository)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\DiseaseManager.cs",
+      "Line": "20",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::DiseaseManager::IQueryable\u003CtblDisease\u003E DiseaseManager.Get()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "95"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "1"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::DiseaseManager::IQueryable\u003CtblDisease\u003E DiseaseManager.Get()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\DiseaseManager.cs",
+      "Line": "25",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\DiseaseManagerFactory.cs",
+          "LineNumber": 34,
+          "ColumnNumber": 63,
+          "ContainingMethodName": "Get",
+          "ContainingTypeName": "DiseaseManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OccurenceManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "88"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "7"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "21"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "3"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OccurenceManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\OccurenceManager.cs",
+      "Line": "13",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OccurenceManager::IOccurenceRepository OccurenceManager._occurrenceRepository": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OccurenceManager::IOccurenceRepository OccurenceManager._occurrenceRepository",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\OccurenceManager.cs",
+      "Line": "15",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OccurenceManager::IUserInfo OccurenceManager._UserInfo": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OccurenceManager::IUserInfo OccurenceManager._UserInfo",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\OccurenceManager.cs",
+      "Line": "16",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OccurenceManager::OccurenceManager.OccurenceManager(IOccurenceRepository occurrenceRepository, IUserInfo userInfo)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "85"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "2"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OccurenceManager::OccurenceManager.OccurenceManager(IOccurenceRepository occurrenceRepository, IUserInfo userInfo)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\OccurenceManager.cs",
+      "Line": "17",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OccurenceManager::IQueryable\u003CSLKP_Occurence\u003E OccurenceManager.GetAll()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "95"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "8"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "1"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OccurenceManager::IQueryable\u003CSLKP_Occurence\u003E OccurenceManager.GetAll()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\OccurenceManager.cs",
+      "Line": "27",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\LookUPManagerFactory.cs",
+          "LineNumber": 37,
+          "ColumnNumber": 61,
+          "ContainingMethodName": "Get",
+          "ContainingTypeName": "LookUPManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OutComeManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "88"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "7"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "20"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "3"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OutComeManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\OutComeManager.cs",
+      "Line": "13",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OutComeManager::IOutComeRepository OutComeManager._outComeRepository": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OutComeManager::IOutComeRepository OutComeManager._outComeRepository",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\OutComeManager.cs",
+      "Line": "15",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OutComeManager::IUserInfo OutComeManager._UserInfo": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OutComeManager::IUserInfo OutComeManager._UserInfo",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\OutComeManager.cs",
+      "Line": "16",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OutComeManager::OutComeManager.OutComeManager(IOutComeRepository outComeRepository, IUserInfo userInfo)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "85"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "2"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OutComeManager::OutComeManager.OutComeManager(IOutComeRepository outComeRepository, IUserInfo userInfo)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\OutComeManager.cs",
+      "Line": "17",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OutComeManager::IQueryable\u003CSLKP_OutCome\u003E OutComeManager.GetAll()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "95"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "8"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "1"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::OutComeManager::IQueryable\u003CSLKP_OutCome\u003E OutComeManager.GetAll()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\OutComeManager.cs",
+      "Line": "27",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\LookUPManagerFactory.cs",
+          "LineNumber": 38,
+          "ColumnNumber": 57,
+          "ContainingMethodName": "Get",
+          "ContainingTypeName": "LookUPManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardDetailManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "64"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "6"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "17"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "90"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "40"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardDetailManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardDetailManager.cs",
+      "Line": "19",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardDetailManager::IProblemCardDetailRepository ProblemCardDetailManager._problemCardDetailRepository": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardDetailManager::IProblemCardDetailRepository ProblemCardDetailManager._problemCardDetailRepository",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardDetailManager.cs",
+      "Line": "21",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardDetailManager::IUserInfo ProblemCardDetailManager._UserInfo": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardDetailManager::IUserInfo ProblemCardDetailManager._UserInfo",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardDetailManager.cs",
+      "Line": "22",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardDetailManager::ProblemCardDetailManager.ProblemCardDetailManager(IUserInfo userInfo, IProblemCardDetailRepository problemCardDetailRepository)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "85"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "6"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "2"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardDetailManager::ProblemCardDetailManager.ProblemCardDetailManager(IUserInfo userInfo, IProblemCardDetailRepository problemCardDetailRepository)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardDetailManager.cs",
+      "Line": "23",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardDetailManager::IQueryable\u003CProblemCardDetail\u003E ProblemCardDetailManager.GetAllProblemCardDetail()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "95"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "1"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardDetailManager::IQueryable\u003CProblemCardDetail\u003E ProblemCardDetailManager.GetAllProblemCardDetail()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardDetailManager.cs",
+      "Line": "31",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+          "LineNumber": 145,
+          "ColumnNumber": 101,
+          "ContainingMethodName": "GetAllProblemCardDetails",
+          "ContainingTypeName": "ProblemCardManagerFactory"
+        },
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+          "LineNumber": 193,
+          "ColumnNumber": 88,
+          "ContainingMethodName": "GetDentalPatientDiagnosis",
+          "ContainingTypeName": "ProblemCardManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardDetailManager::IQueryable\u003CProblemCardDetail\u003E ProblemCardDetailManager.GetProblemCardDetails()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "95"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "1"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardDetailManager::IQueryable\u003CProblemCardDetail\u003E ProblemCardDetailManager.GetProblemCardDetails()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardDetailManager.cs",
+      "Line": "36",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardDetailManager::ProblemCardContractOutputModel ProblemCardDetailManager.EditPatientProblemCardDental(DiagnosisDetailsModel problemCardDetail)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "52"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "14"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "35"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "21"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardDetailManager::ProblemCardContractOutputModel ProblemCardDetailManager.EditPatientProblemCardDental(DiagnosisDetailsModel problemCardDetail)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardDetailManager.cs",
+      "Line": "41",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+          "LineNumber": 188,
+          "ColumnNumber": 46,
+          "ContainingMethodName": "EditPatientProblemCardDental",
+          "ContainingTypeName": "ProblemCardManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardDetailManager::DeleteResult ProblemCardDetailManager.DeleteDentalProblemDetails(long problemDetailsID, string modifiedTS)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "57"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "12"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "30"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "15"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardDetailManager::DeleteResult ProblemCardDetailManager.DeleteDentalProblemDetails(long problemDetailsID, string modifiedTS)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardDetailManager.cs",
+      "Line": "77",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+          "LineNumber": 183,
+          "ColumnNumber": 46,
+          "ContainingMethodName": "DeleteDentalProblemDetails",
+          "ContainingTypeName": "ProblemCardManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "59"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "9"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "23"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "128"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "65"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardManager.cs",
+      "Line": "18",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager::IProblemCardRepository ProblemCardManager._problemCardRepository": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager::IProblemCardRepository ProblemCardManager._problemCardRepository",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardManager.cs",
+      "Line": "20",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager::IUserInfo ProblemCardManager._UserInfo": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager::IUserInfo ProblemCardManager._UserInfo",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardManager.cs",
+      "Line": "21",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager::ProblemCardManager.ProblemCardManager(IProblemCardRepository problemCardRepository, IUserInfo userInfo)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "85"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "2"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager::ProblemCardManager.ProblemCardManager(IProblemCardRepository problemCardRepository, IUserInfo userInfo)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardManager.cs",
+      "Line": "22",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager::SaveResult ProblemCardManager.Add(ProblemCard problemToAdd)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "63"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "8"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "26"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "10"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager::SaveResult ProblemCardManager.Add(ProblemCard problemToAdd)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardManager.cs",
+      "Line": "32",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager::IQueryable\u003CProblemCard\u003E ProblemCardManager.Get(List\u003Clong\u003E visitIDs)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "93"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "1"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager::IQueryable\u003CProblemCard\u003E ProblemCardManager.Get(List\u003Clong\u003E visitIDs)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardManager.cs",
+      "Line": "55",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+          "LineNumber": 48,
+          "ColumnNumber": 56,
+          "ContainingMethodName": "GetProblemCards",
+          "ContainingTypeName": "ProblemCardManagerFactory"
+        },
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+          "LineNumber": 52,
+          "ColumnNumber": 56,
+          "ContainingMethodName": "GetProblemCards",
+          "ContainingTypeName": "ProblemCardManagerFactory"
+        },
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+          "LineNumber": 135,
+          "ColumnNumber": 89,
+          "ContainingMethodName": "GetAllProblemCardDetails",
+          "ContainingTypeName": "ProblemCardManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager::DeleteResult ProblemCardManager.Delete(long problemID, string modifiedTS)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "57"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "14"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "31"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "16"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager::DeleteResult ProblemCardManager.Delete(long problemID, string modifiedTS)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardManager.cs",
+      "Line": "59",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager::SaveResult ProblemCardManager.Update(ProblemCardUpdateModel problemCard)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "45"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "18"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "45"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "34"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager::SaveResult ProblemCardManager.Update(ProblemCardUpdateModel problemCard)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardManager.cs",
+      "Line": "93",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager::IQueryable\u003CProblemCard\u003E ProblemCardManager.GetByPatient(long PatientID)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "83"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "7"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "2"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemCardManager::IQueryable\u003CProblemCard\u003E ProblemCardManager.GetByPatient(long PatientID)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemCardManager.cs",
+      "Line": "139",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "88"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "7"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "19"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "3"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemManager.cs",
+      "Line": "13",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemManager::IProblemRepository ProblemManager._problemRepository": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemManager::IProblemRepository ProblemManager._problemRepository",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemManager.cs",
+      "Line": "15",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemManager::IUserInfo ProblemManager._UserInfo": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemManager::IUserInfo ProblemManager._UserInfo",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemManager.cs",
+      "Line": "16",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemManager::ProblemManager.ProblemManager(IProblemRepository problemRepository, IUserInfo userInfo)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "85"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "2"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemManager::ProblemManager.ProblemManager(IProblemRepository problemRepository, IUserInfo userInfo)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemManager.cs",
+      "Line": "17",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemManager::IQueryable\u003CSLKP_Problem\u003E ProblemManager.GetAll()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "95"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "8"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "1"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Managers::ProblemManager::IQueryable\u003CSLKP_Problem\u003E ProblemManager.GetAll()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ProblemManager.cs",
+      "Line": "27",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\LookUPManagerFactory.cs",
+          "LineNumber": 39,
+          "ColumnNumber": 61,
+          "ContainingMethodName": "Get",
+          "ContainingTypeName": "LookUPManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "7"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "12"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "30"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces",
+      "MemberType": "Namespace",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\Interfaces\\ILookUPManagerFactory.cs",
+      "Line": "8",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IChiefComplaintManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "6"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "9"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IChiefComplaintManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IChiefComplaintManager.cs",
+      "Line": "12",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IChiefComplaintManager::ChiefComplaint IChiefComplaintManager.GetChiefComplaintByID(long ChiefComplaintID)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IChiefComplaintManager::ChiefComplaint IChiefComplaintManager.GetChiefComplaintByID(long ChiefComplaintID)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IChiefComplaintManager.cs",
+      "Line": "14",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IChiefComplaintManager::ChiefComplaintModel IChiefComplaintManager.GetChiefComplaintByVisitID(long VisitID)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IChiefComplaintManager::ChiefComplaintModel IChiefComplaintManager.GetChiefComplaintByVisitID(long VisitID)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IChiefComplaintManager.cs",
+      "Line": "15",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IChiefComplaintManager::IQueryable\u003CChiefComplaint\u003E IChiefComplaintManager.GetRelatedVisitChiefComplaint(long visitID)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IChiefComplaintManager::IQueryable\u003CChiefComplaint\u003E IChiefComplaintManager.GetRelatedVisitChiefComplaint(long visitID)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IChiefComplaintManager.cs",
+      "Line": "16",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\ChiefComplaintManager.cs",
+          "LineNumber": 50,
+          "ColumnNumber": 37,
+          "ContainingMethodName": "GetChiefComplaintByVisitID",
+          "ContainingTypeName": "ChiefComplaintManager"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IChiefComplaintManager::SaveResult IChiefComplaintManager.AddChiefComplaint(ChiefComplaint chiefComplaint)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IChiefComplaintManager::SaveResult IChiefComplaintManager.AddChiefComplaint(ChiefComplaint chiefComplaint)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IChiefComplaintManager.cs",
+      "Line": "17",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IChiefComplaintManager::SaveResult IChiefComplaintManager.EditChiefComplaint(ChiefComplaint chiefComplaintObj, string ModifiedTS)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IChiefComplaintManager::SaveResult IChiefComplaintManager.EditChiefComplaint(ChiefComplaint chiefComplaintObj, string ModifiedTS)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IChiefComplaintManager.cs",
+      "Line": "18",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IChiefComplaintManager::SaveResult IChiefComplaintManager.DeleteChiefComplaint(long chiefComplaintID, string modifiedTS)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IChiefComplaintManager::SaveResult IChiefComplaintManager.DeleteChiefComplaint(long chiefComplaintID, string modifiedTS)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IChiefComplaintManager.cs",
+      "Line": "19",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IClassManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IClassManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IClassManager.cs",
+      "Line": "13",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IClassManager::IQueryable\u003CtblClass\u003E IClassManager.Get()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IClassManager::IQueryable\u003CtblClass\u003E IClassManager.Get()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IClassManager.cs",
+      "Line": "15",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\DiseaseManagerFactory.cs",
+          "LineNumber": 35,
+          "ColumnNumber": 66,
+          "ContainingMethodName": "Get",
+          "ContainingTypeName": "DiseaseManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IClassManager::IQueryable\u003CMenueModel\u003E IClassManager.GetMenu()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IClassManager::IQueryable\u003CMenueModel\u003E IClassManager.GetMenu()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IClassManager.cs",
+      "Line": "16",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IDiseaseCategoryManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IDiseaseCategoryManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IDiseaseCategoryManager.cs",
+      "Line": "13",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IDiseaseCategoryManager::IQueryable\u003CMenueModel\u003E IDiseaseCategoryManager.Get()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IDiseaseCategoryManager::IQueryable\u003CMenueModel\u003E IDiseaseCategoryManager.Get()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IDiseaseCategoryManager.cs",
+      "Line": "15",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IDiseaseManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IDiseaseManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IDiseaseManager.cs",
+      "Line": "13",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IDiseaseManager::IQueryable\u003CtblDisease\u003E IDiseaseManager.Get()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IDiseaseManager::IQueryable\u003CtblDisease\u003E IDiseaseManager.Get()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IDiseaseManager.cs",
+      "Line": "15",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\DiseaseManagerFactory.cs",
+          "LineNumber": 34,
+          "ColumnNumber": 63,
+          "ContainingMethodName": "Get",
+          "ContainingTypeName": "DiseaseManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IOccurenceManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "9"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IOccurenceManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IOccurenceManager.cs",
+      "Line": "11",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IOccurenceManager::IQueryable\u003CSLKP_Occurence\u003E IOccurenceManager.GetAll()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IOccurenceManager::IQueryable\u003CSLKP_Occurence\u003E IOccurenceManager.GetAll()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IOccurenceManager.cs",
+      "Line": "18",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\LookUPManagerFactory.cs",
+          "LineNumber": 37,
+          "ColumnNumber": 61,
+          "ContainingMethodName": "Get",
+          "ContainingTypeName": "LookUPManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IOutComeManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "9"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IOutComeManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IOutComeManager.cs",
+      "Line": "10",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IOutComeManager::IQueryable\u003CSLKP_OutCome\u003E IOutComeManager.GetAll()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IOutComeManager::IQueryable\u003CSLKP_OutCome\u003E IOutComeManager.GetAll()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IOutComeManager.cs",
+      "Line": "17",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\LookUPManagerFactory.cs",
+          "LineNumber": 38,
+          "ColumnNumber": 57,
+          "ContainingMethodName": "Get",
+          "ContainingTypeName": "LookUPManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardDetailManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "6"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "7"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardDetailManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IProblemCardDetailManager.cs",
+      "Line": "12",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardDetailManager::IQueryable\u003CProblemCardDetail\u003E IProblemCardDetailManager.GetAllProblemCardDetail()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardDetailManager::IQueryable\u003CProblemCardDetail\u003E IProblemCardDetailManager.GetAllProblemCardDetail()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IProblemCardDetailManager.cs",
+      "Line": "14",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+          "LineNumber": 145,
+          "ColumnNumber": 101,
+          "ContainingMethodName": "GetAllProblemCardDetails",
+          "ContainingTypeName": "ProblemCardManagerFactory"
+        },
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+          "LineNumber": 193,
+          "ColumnNumber": 88,
+          "ContainingMethodName": "GetDentalPatientDiagnosis",
+          "ContainingTypeName": "ProblemCardManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardDetailManager::IQueryable\u003CProblemCardDetail\u003E IProblemCardDetailManager.GetProblemCardDetails()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardDetailManager::IQueryable\u003CProblemCardDetail\u003E IProblemCardDetailManager.GetProblemCardDetails()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IProblemCardDetailManager.cs",
+      "Line": "15",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardDetailManager::DeleteResult IProblemCardDetailManager.DeleteDentalProblemDetails(long problemDetailsID, string modifiedTS)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardDetailManager::DeleteResult IProblemCardDetailManager.DeleteDentalProblemDetails(long problemDetailsID, string modifiedTS)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IProblemCardDetailManager.cs",
+      "Line": "16",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+          "LineNumber": 183,
+          "ColumnNumber": 46,
+          "ContainingMethodName": "DeleteDentalProblemDetails",
+          "ContainingTypeName": "ProblemCardManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardDetailManager::ProblemCardContractOutputModel IProblemCardDetailManager.EditPatientProblemCardDental(DiagnosisDetailsModel problemCardDetail)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardDetailManager::ProblemCardContractOutputModel IProblemCardDetailManager.EditPatientProblemCardDental(DiagnosisDetailsModel problemCardDetail)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IProblemCardDetailManager.cs",
+      "Line": "17",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+          "LineNumber": 188,
+          "ColumnNumber": 46,
+          "ContainingMethodName": "EditPatientProblemCardDental",
+          "ContainingTypeName": "ProblemCardManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "7"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "13"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IProblemCardManager.cs",
+      "Line": "12",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManager::SaveResult IProblemCardManager.Add(ProblemCard problemToAdd)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManager::SaveResult IProblemCardManager.Add(ProblemCard problemToAdd)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IProblemCardManager.cs",
+      "Line": "19",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManager::IQueryable\u003CProblemCard\u003E IProblemCardManager.Get(List\u003Clong\u003E visitIDs)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManager::IQueryable\u003CProblemCard\u003E IProblemCardManager.Get(List\u003Clong\u003E visitIDs)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IProblemCardManager.cs",
+      "Line": "20",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+          "LineNumber": 48,
+          "ColumnNumber": 56,
+          "ContainingMethodName": "GetProblemCards",
+          "ContainingTypeName": "ProblemCardManagerFactory"
+        },
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+          "LineNumber": 52,
+          "ColumnNumber": 56,
+          "ContainingMethodName": "GetProblemCards",
+          "ContainingTypeName": "ProblemCardManagerFactory"
+        },
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+          "LineNumber": 135,
+          "ColumnNumber": 89,
+          "ContainingMethodName": "GetAllProblemCardDetails",
+          "ContainingTypeName": "ProblemCardManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManager::DeleteResult IProblemCardManager.Delete(long problemID, string modifiedTS)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManager::DeleteResult IProblemCardManager.Delete(long problemID, string modifiedTS)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IProblemCardManager.cs",
+      "Line": "21",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManager::SaveResult IProblemCardManager.Update(ProblemCardUpdateModel problemCard)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManager::SaveResult IProblemCardManager.Update(ProblemCardUpdateModel problemCard)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IProblemCardManager.cs",
+      "Line": "22",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManager::IQueryable\u003CProblemCard\u003E IProblemCardManager.GetByPatient(long PatientID)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManager::IQueryable\u003CProblemCard\u003E IProblemCardManager.GetByPatient(long PatientID)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IProblemCardManager.cs",
+      "Line": "23",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "9"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemManager",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IProblemManager.cs",
+      "Line": "10",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemManager::IQueryable\u003CSLKP_Problem\u003E IProblemManager.GetAll()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemManager::IQueryable\u003CSLKP_Problem\u003E IProblemManager.GetAll()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\Managers\\Interfaces\\IProblemManager.cs",
+      "Line": "17",
+      "References": [
+        {
+          "FilePath": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\LookUPManagerFactory.cs",
+          "LineNumber": 39,
+          "ColumnNumber": 61,
+          "ContainingMethodName": "Get",
+          "ContainingTypeName": "LookUPManagerFactory"
+        }
+      ]
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "61"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "59"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "48"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "278"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "87"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory",
+      "MemberType": "Namespace",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\Interfaces\\ILookUPManagerFactory.cs",
+      "Line": "8",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::DiseaseManagerFactory": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "64"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "12"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "17"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "43"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "13"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::DiseaseManagerFactory",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\DiseaseManagerFactory.cs",
+      "Line": "19",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::DiseaseManagerFactory::IDiseaseManager DiseaseManagerFactory._diseaseManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::DiseaseManagerFactory::IDiseaseManager DiseaseManagerFactory._diseaseManager",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\DiseaseManagerFactory.cs",
+      "Line": "21",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::DiseaseManagerFactory::IClassManager DiseaseManagerFactory._classManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::DiseaseManagerFactory::IClassManager DiseaseManagerFactory._classManager",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\DiseaseManagerFactory.cs",
+      "Line": "22",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::DiseaseManagerFactory::DiseaseManagerFactory.DiseaseManagerFactory(IDiseaseManager diseaseManager, IClassManager classManager)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "85"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "2"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::DiseaseManagerFactory::DiseaseManagerFactory.DiseaseManagerFactory(IDiseaseManager diseaseManager, IClassManager classManager)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\DiseaseManagerFactory.cs",
+      "Line": "23",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::DiseaseManagerFactory::IQueryable\u003CDiseaseModel\u003E DiseaseManagerFactory.Get(string code, string name, int? typeID, int? classID)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "56"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "11"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "16"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "32"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "11"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::DiseaseManagerFactory::IQueryable\u003CDiseaseModel\u003E DiseaseManagerFactory.Get(string code, string name, int? typeID, int? classID)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\DiseaseManagerFactory.cs",
+      "Line": "29",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::LookUPManagerFactory": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "64"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "16"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "34"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "14"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::LookUPManagerFactory",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\LookUPManagerFactory.cs",
+      "Line": "14",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::LookUPManagerFactory::IOccurenceManager LookUPManagerFactory._occurenceManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::LookUPManagerFactory::IOccurenceManager LookUPManagerFactory._occurenceManager",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\LookUPManagerFactory.cs",
+      "Line": "16",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::LookUPManagerFactory::IOutComeManager LookUPManagerFactory._outComeManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::LookUPManagerFactory::IOutComeManager LookUPManagerFactory._outComeManager",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\LookUPManagerFactory.cs",
+      "Line": "17",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::LookUPManagerFactory::IProblemManager LookUPManagerFactory._problemManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::LookUPManagerFactory::IProblemManager LookUPManagerFactory._problemManager",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\LookUPManagerFactory.cs",
+      "Line": "18",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::LookUPManagerFactory::IUserInfo LookUPManagerFactory._userInfo": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::LookUPManagerFactory::IUserInfo LookUPManagerFactory._userInfo",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\LookUPManagerFactory.cs",
+      "Line": "19",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::LookUPManagerFactory::LookUPManagerFactory.LookUPManagerFactory(IOccurenceManager occurenceManager, IOutComeManager outComeManager, IProblemManager problemManager, IUserInfo userInfo)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "75"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "7"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "4"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::LookUPManagerFactory::LookUPManagerFactory.LookUPManagerFactory(IOccurenceManager occurenceManager, IOutComeManager outComeManager, IProblemManager problemManager, IUserInfo userInfo)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\LookUPManagerFactory.cs",
+      "Line": "20",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::LookUPManagerFactory::LookUpModel LookUPManagerFactory.Get()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "58"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "15"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "19"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "10"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::LookUPManagerFactory::LookUpModel LookUPManagerFactory.Get()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\LookUPManagerFactory.cs",
+      "Line": "32",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "55"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "42"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "35"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "192"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "60"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+      "Line": "19",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::IProblemCardManager ProblemCardManagerFactory._problemCardManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::IProblemCardManager ProblemCardManagerFactory._problemCardManager",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+      "Line": "21",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::IProblemCardDetailManager ProblemCardManagerFactory._problemCardDetailManager": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::IProblemCardDetailManager ProblemCardManagerFactory._problemCardDetailManager",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+      "Line": "22",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::IUserInfo ProblemCardManagerFactory._userInfo": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::IUserInfo ProblemCardManagerFactory._userInfo",
+      "MemberType": "Field",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+      "Line": "23",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::ProblemCardManagerFactory.ProblemCardManagerFactory(IProblemCardManager problemCardManager, IProblemCardDetailManager problemCardDetailManager, IUserInfo userInfo)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "79"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "6"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "3"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::ProblemCardManagerFactory.ProblemCardManagerFactory(IProblemCardManager problemCardManager, IProblemCardDetailManager problemCardDetailManager, IUserInfo userInfo)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+      "Line": "24",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::CurrentAndRelatedProblemCardModel ProblemCardManagerFactory.GetProblemCards(long visitID)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "38"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "22"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "27"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "96"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "35"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::CurrentAndRelatedProblemCardModel ProblemCardManagerFactory.GetProblemCards(long visitID)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+      "Line": "31",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::IQueryable\u003CPatientProblemsModel\u003E ProblemCardManagerFactory.GetAllProblemCardDetails(List\u003Clong\u003E visitIDs)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "51"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "12"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "15"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "52"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "14"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::IQueryable\u003CPatientProblemsModel\u003E ProblemCardManagerFactory.GetAllProblemCardDetails(List\u003Clong\u003E visitIDs)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+      "Line": "128",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::DeleteResult ProblemCardManagerFactory.DeleteDentalProblemDetails(long problemDetailsID, string modifiedTS)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "92"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "1"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::DeleteResult ProblemCardManagerFactory.DeleteDentalProblemDetails(long problemDetailsID, string modifiedTS)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+      "Line": "181",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::ProblemCardContractOutputModel ProblemCardManagerFactory.EditPatientProblemCardDental(DiagnosisDetailsModel problemCardDetail)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "93"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "1"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::ProblemCardContractOutputModel ProblemCardManagerFactory.EditPatientProblemCardDental(DiagnosisDetailsModel problemCardDetail)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+      "Line": "186",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::IQueryable\u003CDiagnosisModel\u003E ProblemCardManagerFactory.GetDentalPatientDiagnosis(long PatientID, long VisitID)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "63"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "11"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "19"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "6"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::ManagersFactory::ProblemCardManagerFactory::IQueryable\u003CDiagnosisModel\u003E ProblemCardManagerFactory.GetDentalPatientDiagnosis(long PatientID, long VisitID)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\ProblemCardManagerFactory.cs",
+      "Line": "191",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IDiseaseManagerFactory": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "4"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IDiseaseManagerFactory",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\Interfaces\\IDiseaseManagerFactory.cs",
+      "Line": "10",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IDiseaseManagerFactory::IQueryable\u003CDiseaseModel\u003E IDiseaseManagerFactory.Get(string code, string name, int? typeID, int? classID)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IDiseaseManagerFactory::IQueryable\u003CDiseaseModel\u003E IDiseaseManagerFactory.Get(string code, string name, int? typeID, int? classID)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\Interfaces\\IDiseaseManagerFactory.cs",
+      "Line": "12",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::ILookUPManagerFactory": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "9"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::ILookUPManagerFactory",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\Interfaces\\ILookUPManagerFactory.cs",
+      "Line": "10",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::ILookUPManagerFactory::LookUpModel ILookUPManagerFactory.Get()": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::ILookUPManagerFactory::LookUpModel ILookUPManagerFactory.Get()",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\Interfaces\\ILookUPManagerFactory.cs",
+      "Line": "17",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManagerFactory": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "5"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "9"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "8"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManagerFactory",
+      "MemberType": "NamedType",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\Interfaces\\IProblemCardManagerFactory.cs",
+      "Line": "11",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManagerFactory::CurrentAndRelatedProblemCardModel IProblemCardManagerFactory.GetProblemCards(long visitID)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManagerFactory::CurrentAndRelatedProblemCardModel IProblemCardManagerFactory.GetProblemCards(long visitID)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\Interfaces\\IProblemCardManagerFactory.cs",
+      "Line": "13",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManagerFactory::IQueryable\u003CPatientProblemsModel\u003E IProblemCardManagerFactory.GetAllProblemCardDetails(List\u003Clong\u003E visitIDs)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "3"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManagerFactory::IQueryable\u003CPatientProblemsModel\u003E IProblemCardManagerFactory.GetAllProblemCardDetails(List\u003Clong\u003E visitIDs)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\Interfaces\\IProblemCardManagerFactory.cs",
+      "Line": "14",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManagerFactory::IQueryable\u003CDiagnosisModel\u003E IProblemCardManagerFactory.GetDentalPatientDiagnosis(long PatientID, long VisitID)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManagerFactory::IQueryable\u003CDiagnosisModel\u003E IProblemCardManagerFactory.GetDentalPatientDiagnosis(long PatientID, long VisitID)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\Interfaces\\IProblemCardManagerFactory.cs",
+      "Line": "15",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManagerFactory::DeleteResult IProblemCardManagerFactory.DeleteDentalProblemDetails(long problemDetailsID, string modifiedTS)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManagerFactory::DeleteResult IProblemCardManagerFactory.DeleteDentalProblemDetails(long problemDetailsID, string modifiedTS)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\Interfaces\\IProblemCardManagerFactory.cs",
+      "Line": "16",
+      "References": []
+    }
+  },
+  "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManagerFactory::ProblemCardContractOutputModel IProblemCardManagerFactory.EditPatientProblemCardDental(DiagnosisDetailsModel problemCardDetail)": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "2"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": null
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "1"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.csproj::PatientProblems.BL::Interfaces::IProblemCardManagerFactory::ProblemCardContractOutputModel IProblemCardManagerFactory.EditPatientProblemCardDental(DiagnosisDetailsModel problemCardDetail)",
+      "MemberType": "Method",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL\\PatientProblems.BL\\ManagersFactory\\Interfaces\\IProblemCardManagerFactory.cs",
+      "Line": "17",
+      "References": []
+    }
+  }
+}

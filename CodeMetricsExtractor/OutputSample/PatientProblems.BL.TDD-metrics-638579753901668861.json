@@ -1,0 +1,37 @@
+{
+  "PatientProblems.BL.TDD.csproj::PatientProblems.BL.TDD": {
+    "MetricsInfo": [
+      {
+        "MetricName": "MaintainabilityIndex",
+        "MetricValue": "100"
+      },
+      {
+        "MetricName": "CyclomaticComplexity",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ClassCoupling",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "DepthOfInheritance",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "SourceLines",
+        "MetricValue": "0"
+      },
+      {
+        "MetricName": "ExecutableLines",
+        "MetricValue": "0"
+      }
+    ],
+    "MemberInfo": {
+      "KeyFullName": "PatientProblems.BL.TDD.csproj::PatientProblems.BL.TDD",
+      "MemberType": "Assembly",
+      "File": "D:\\ADSHotFix9\\ADSMedical\\PatientProblems\\BL\\PatientProblems.BL.TDD\\PatientProblems.BL.TDD\\Properties\\AssemblyInfo.cs",
+      "Line": "1",
+      "References": []
+    }
+  }
+}
