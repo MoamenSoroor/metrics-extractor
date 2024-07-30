@@ -23,6 +23,7 @@ namespace MetricsExtractorDemo2
 
 
             Console.WriteLine("end");
+
             Console.ReadLine();
         }
 
