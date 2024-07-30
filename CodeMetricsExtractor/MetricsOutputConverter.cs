@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Globalization;
 using System.IO;
@@ -11,21 +12,13 @@ using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CodeMetrics;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.FindSymbols;
+using static System.Net.WebRequestMethods;
 
 namespace CodeMetricsExtractor
 {
     internal static partial class MetricsOutputConverter
     {
         private const string Version = "1.0";
-        private static Solution CurrentSln;
-        public static void SetSolutionToExtractMemebersRefs(Solution sln)
-        {
-            if (sln != null)
-            {
-                CurrentSln = sln;
-            }
-        }
-
         public static CodeMetricsReport GetMetricsReport(ImmutableArray<(string, CodeAnalysisMetricData)> data)
         {
             var report = new CodeMetricsReport
@@ -109,27 +102,26 @@ namespace CodeMetricsExtractor
             }
         }
 
-
-        public static Dictionary<string, MemberInfoWithMetrics> FlattenMetrics(ImmutableArray<(string, CodeAnalysisMetricData)> data)
+        static readonly string[] toCalcRef = new string[] { "Method", "Event" };
+        public static Dictionary<string, MemberInfoWithMetrics> FlattenMetrics(Project project, CodeAnalysisMetricData metricsData, bool silent)
         {
             var flattenedMetrics = new Dictionary<string, MemberInfoWithMetrics>();
+            
 
-            foreach (var kvp in data)
-            {
-                string projectName = Path.GetFileNameWithoutExtension(kvp.Item1);
-                FlattenMetricData(projectName, kvp.Item2, flattenedMetrics, new List<string>());
-            }
+            var solution = project.Solution;
+
+            string projectName = Path.GetFileName(project.FilePath);
+            FlattenMetricData(projectName, metricsData, flattenedMetrics, new List<string>());
 
             return flattenedMetrics;
-        }
 
-        private static void FlattenMetricData(string projectName, CodeAnalysisMetricData data, Dictionary<string, MemberInfoWithMetrics> flattenedMetrics, List<string> pathSegments)
-        {
-            pathSegments.Add(data.Symbol.ToDisplayString(SymbolDisplayFormat.MinimallyQualifiedFormat));
+            void FlattenMetricData(string projectName, CodeAnalysisMetricData data, Dictionary<string, MemberInfoWithMetrics> flattenedMetrics, List<string> pathSegments)
+            {
+                pathSegments.Add(data.Symbol.ToDisplayString(SymbolDisplayFormat.MinimallyQualifiedFormat));
 
-            var key = string.Join("::", pathSegments.Prepend(projectName));
+                var key = string.Join("::", pathSegments.Prepend(projectName));
 
-            var metrics = new List<MetricInfo>
+                var metrics = new List<MetricInfo>
             {
                 new MetricInfo("MaintainabilityIndex", data.MaintainabilityIndex.ToString(CultureInfo.InvariantCulture)),
                 new MetricInfo("CyclomaticComplexity", data.CyclomaticComplexity.ToString(CultureInfo.InvariantCulture)),
@@ -143,32 +135,39 @@ namespace CodeMetricsExtractor
 #endif
             };
 
-            var memberType = data.Symbol.Kind.ToString();
-            var file = data.Symbol.Locations.FirstOrDefault()?.SourceTree?.FilePath ?? "";
-            var line = (data.Symbol.Locations.FirstOrDefault()?.GetLineSpan().StartLinePosition.Line + 1).ToString() ?? "";
+                var memberType = data.Symbol.Kind.ToString();
+                var file = data.Symbol.Locations.FirstOrDefault()?.SourceTree?.FilePath ?? "";
+                var line = (data.Symbol.Locations.FirstOrDefault()?.GetLineSpan().StartLinePosition.Line + 1).ToString() ?? "";
 
-            var memberInfo = new MemberInfo(key, memberType, file, line);
+                var memberInfo = new MemberInfo(key, memberType, file, line);
 
-            if (CurrentSln != null)
-            {
-                var references = GetReferences(data.Symbol, CurrentSln).Result;
-                memberInfo.References = references;
+                if (toCalcRef.Contains(memberType))
+                {
+                    if(!silent)
+                        Console.WriteLine($"Get References of Member: {key}");
+
+                    var references = GetReferences(data.Symbol, solution).Result;
+                    memberInfo.References = references;
+                }
+
+
+                var entry = new MemberInfoWithMetrics
+                {
+                    MetricsInfo = metrics,
+                    MemberInfo = memberInfo
+                };
+
+                flattenedMetrics[key] = entry;
+
+                foreach (var child in data.Children)
+                {
+                    FlattenMetricData(projectName, child, flattenedMetrics, new List<string>(pathSegments));
+                }
             }
 
-            
-            var entry = new MemberInfoWithMetrics
-            {
-                MetricsInfo = metrics,
-                MemberInfo = memberInfo
-            };
 
-            flattenedMetrics[key] = entry;
-
-            foreach (var child in data.Children)
-            {
-                FlattenMetricData(projectName, child, flattenedMetrics, new List<string>(pathSegments));
-            }
         }
+
 
 
 

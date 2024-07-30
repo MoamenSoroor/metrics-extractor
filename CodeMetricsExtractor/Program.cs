@@ -61,24 +61,28 @@ namespace CodeMetricsAnalyzer
 
         
 
-
-           public static async Task Main(string[] args)
+        static string runId = Guid.NewGuid().ToString();
+        public static async Task Main(string[] args)
         {
             try
-
             {
+                string solutionFilePath = @"D:\ADSHotFix9\ADSMedical\HMIS_Medical.sln";
+                bool silent = false;
+
                 if (!MSBuildLocator.IsRegistered)
                     MSBuildLocator.RegisterDefaults();
-                
-                Solution solution = null;
-                
-                CalculateMetrics.SolutionLoaded += (sln, e) => solution = (Solution)sln;
 
-                //string solutionFilePath = args.FirstOrDefault() ?? @"D:\Work\Workspaces\pacslive\AndalusiaRadiant\AndalusiaRadiant.sln";
-                string solutionFilePath = @"D:\ADSHotFix9\HMISBackoffice\HMIS_BackOffice.sln";
-                (ImmutableArray<(string, CodeAnalysisMetricData)>, ErrorCode error) metrics =
-                    await CalculateMetrics.GetMetricDatasAsync(new List<string>
-            { solutionFilePath }, false, CancellationToken.None);
+                Console.WriteLine("Opening the Solution...");
+                using var workspace = MSBuildWorkspace.Create();
+
+                var solution = await workspace.OpenSolutionAsync(solutionFilePath, cancellationToken: CancellationToken.None).ConfigureAwait(false);
+
+                var toPlayProjects = solution.Projects.Where(p=> p.AssemblyName.Contains("PatientProblems.BL")).ToList();
+                Console.WriteLine("Start Extracting Metrics for selected projects...");
+                Console.WriteLine($"Projects: {string.Join(",", toPlayProjects)}");
+
+                (ImmutableArray<(Project, CodeAnalysisMetricData)>, ErrorCode error) metrics =
+                    await CalculateMetrics.GetProjectsMetricDatasAsync(toPlayProjects, silent, CancellationToken.None);
 
                 if (metrics.error != ErrorCode.None)
                 {
@@ -86,11 +90,7 @@ namespace CodeMetricsAnalyzer
                     return;
                 }
 
-                //ExtractOriginalMetrics(metrics);
-                
-                MetricsOutputConverter.SetSolutionToExtractMemebersRefs(solution);
-
-                ExtractFlattenMetrics(metrics);
+                ExtractFlattenMetrics(metrics.Item1,silent);
 
             }
             catch (Exception ex)
@@ -106,7 +106,7 @@ namespace CodeMetricsAnalyzer
         {
             string result = MetricsOutputConverter.WriteMetricFile(metrics.Item1);
 
-            string outputFile = CreateOutputFile();
+            string outputFile = CreateOutputFile("full-solution");
 
             System.IO.File.WriteAllText(outputFile, result);
             Console.WriteLine($"Output File: {outputFile}");
@@ -114,29 +114,34 @@ namespace CodeMetricsAnalyzer
         }
 
 
-        private static void ExtractFlattenMetrics((ImmutableArray<(string, CodeAnalysisMetricData)>, ErrorCode error) metrics)
+        private static void ExtractFlattenMetrics(ImmutableArray<(Project project, CodeAnalysisMetricData projectMetrics)> data, bool silent)
         {
-            var flatternMetrics = MetricsOutputConverter.FlattenMetrics(metrics.Item1);
+            foreach (var oneProjectMetrics in data)
+            {
+                var flatternMetrics = MetricsOutputConverter.FlattenMetrics(oneProjectMetrics.project, oneProjectMetrics.projectMetrics, silent);
 
-            string toOutput = JsonSerializer.Serialize(flatternMetrics, new JsonSerializerOptions { WriteIndented = true });
+                string toOutput = JsonSerializer.Serialize(flatternMetrics, new JsonSerializerOptions { WriteIndented = true });
 
-            string outputFile = CreateOutputFile();
+                string outputFile = CreateOutputFile(oneProjectMetrics.project.Name);
 
-            System.IO.File.WriteAllText(outputFile, toOutput);
+                System.IO.File.WriteAllText(outputFile, toOutput);
 
-            Console.WriteLine($"Output File: {outputFile}");
+                Console.WriteLine($"Output File: {outputFile}");
+
+            }
+
         }
 
-        private static string CreateOutputFile()
+        private static string CreateOutputFile(string projectName)
         {
-            string exeDirectory = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "metrics-output");
+            string exeDirectory = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "metrics-output", runId);
 
             if (!Directory.Exists(exeDirectory))
             {
                 Directory.CreateDirectory(exeDirectory);
             }
 
-            string outputFile = Path.Combine(exeDirectory, $"metrics-{DateTime.Now.Ticks}.json");
+            string outputFile = Path.Combine(exeDirectory, $"{projectName}-metrics-{DateTime.Now.Ticks}.json");
             return outputFile;
         }
     }

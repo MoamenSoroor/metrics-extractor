@@ -8,6 +8,7 @@ using System.Collections.Immutable;
 using System.Diagnostics;
 using System.IO;
 using System.Threading;
+using Microsoft.CodeAnalysis;
 
 namespace CodeMetricsAnalyzer
 {
@@ -108,7 +109,52 @@ namespace CodeMetricsAnalyzer
                 }
             }
         }
+
+
+
+
+
+        public static async Task<(ImmutableArray<(Project, CodeAnalysisMetricData)>, ErrorCode)> GetProjectsMetricDatasAsync(List<Project> projects, bool quiet, CancellationToken cancellation)
+        {
+
+            var builder = ImmutableArray.CreateBuilder<(Project, CodeAnalysisMetricData)>();
+
+            try
+            {
+
+                cancellation.ThrowIfCancellationRequested();
+
+                foreach (var project in projects)
+                {
+                    if (!quiet)
+                    {
+                        Console.WriteLine($"    Computing code metrics for {Path.GetFileName(project.FilePath)}...");
+                    }
+
+                    if (!project.SupportsCompilation)
+                    {
+                        throw new NotSupportedException("Project must support compilation.");
+                    }
+
+                    cancellation.ThrowIfCancellationRequested();
+                    var compilation = await project.GetCompilationAsync(CancellationToken.None).ConfigureAwait(false);
+                    var metricData = await CodeAnalysisMetricData.ComputeAsync(compilation!.Assembly, new CodeMetricsAnalysisContext(compilation, CancellationToken.None)).ConfigureAwait(false);
+                    builder.Add((project!, metricData));
+                }
+
+                return (builder.ToImmutable(), ErrorCode.None);
+            }
+            catch (Exception ex)
+            {
+                Console.Write(ex.Message);
+                return (ImmutableArray<(Project, CodeAnalysisMetricData)>.Empty, ErrorCode.ComputeException);
+            }
+
+        }
+
+
+
     }
 
-    
+
 }
