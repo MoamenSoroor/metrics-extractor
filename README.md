@@ -42,6 +42,24 @@ If you prefer not to see console output, set the `silent` variable to `true`:
 ```csharp
 bool silent = true;
 ```
+### Step 5: Filter the Projects like you want
+```csharp
+
+  // filter the solution and take the desired projects
+  var toPlayProjects = solution.Projects.Where(p=> p.AssemblyName.Contains("PatientProblems.BL")).ToList();
+
+  // run the microsoft metrics extractor only on the filtered projects 
+  (ImmutableArray<(Project, CodeAnalysisMetricData)>, ErrorCode error) metrics =
+      await CalculateMetrics.GetProjectsMetricDatasAsync(toPlayProjects, silent, CancellationToken.None);
+
+  if (metrics.error != ErrorCode.None)
+  {
+      Console.Error.WriteLine(metrics.error);
+      return;
+  }
+  // flatten the metrics and add method references.
+  ExtractFlattenMetrics(metrics.Item1,silent);
+```
 
 ## Output
 
