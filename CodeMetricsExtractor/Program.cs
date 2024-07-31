@@ -63,7 +63,7 @@ namespace CodeMetricsAnalyzer
         // Define your settings to include type information
         static JsonSerializerSettings settings = new JsonSerializerSettings
         {
-            TypeNameHandling = TypeNameHandling.All,
+            //TypeNameHandling = TypeNameHandling.All,
             Formatting = Formatting.Indented
         };
 

@@ -173,8 +173,6 @@ namespace CodeMetricsExtractor
         public string MethodSignature { get; set; }
         public string MethodFullBody { get; set; }
 
-        public List<ReferenceInfo> References { get; set; } = new List<ReferenceInfo>();
-
         public List<ParameterInfo> Parameters { get; set; }
 
         public string AccessModifier { get; set; }
