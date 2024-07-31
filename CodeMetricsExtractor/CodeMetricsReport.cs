@@ -4,6 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection.Metadata;
+using System.Security.Cryptography;
 using System.Text.Json.Serialization;
 
 namespace CodeMetricsExtractor
@@ -143,7 +145,11 @@ namespace CodeMetricsExtractor
         public string ContainingTypeName { get; set; }
     }
 
-
+    public class ParameterInfo
+    {
+        public string Name { get; set; }
+        public string Type { get; set; }
+    }
 
     public class MethodMemberInfo : MemberInfoBase
     {
@@ -164,11 +170,14 @@ namespace CodeMetricsExtractor
         public bool MethodSymbolIsGenericMethod { get; set; }
         public bool MethodSymbolIsAsync { get; set; }
         //public string MethodBody { get; set; }
+        public string MethodSignature { get; set; }
         public string MethodFullBody { get; set; }
 
         public List<ReferenceInfo> References { get; set; } = new List<ReferenceInfo>();
 
+        public List<ParameterInfo> Parameters { get; set; }
 
+        public string AccessModifier { get; set; }
         public MethodMemberInfo(string keyFullName, ISymbol symbol, List<MetricInfo> metrics) : base(keyFullName,symbol,metrics)
         {
             
@@ -178,6 +187,7 @@ namespace CodeMetricsExtractor
             ClassName = symbol.ContainingType?.Name ?? "";
             MethodName = symbol.Name;
             MethodFullName = GetFullyQualifiedName(symbol);
+            MethodSignature = (symbol as IMethodSymbol)?.ToSimpleMethodSignature() ?? "";
             MethodSymbolReturnType = (symbol as IMethodSymbol)?.ReturnType.ToDisplayString(SymbolDisplayFormat.MinimallyQualifiedFormat) ?? "";
             MethodSymbolIsStatic = symbol.IsStatic;
             MethodSymbolIsSealed = symbol.IsSealed;
@@ -188,7 +198,41 @@ namespace CodeMetricsExtractor
             MethodSymbolIsGenericMethod = (symbol as IMethodSymbol)?.IsGenericMethod ?? false;
             MethodSymbolIsAsync = (symbol as IMethodSymbol)?.IsAsync ?? false;
             //MethodBody = GetMethodBody(symbol as IMethodSymbol);
-            MethodFullBody = MethodFullName +Environment.NewLine+ GetMethodBody(symbol as IMethodSymbol);
+            MethodFullBody = MethodSignature + Environment.NewLine+ GetMethodBody(symbol as IMethodSymbol);
+            Parameters = GetMethodParameters(symbol as IMethodSymbol);
+            AccessModifier = GetAccessModifier(symbol);
+        }
+
+
+
+        private List<ParameterInfo> GetMethodParameters(IMethodSymbol methodSymbol)
+        {
+            return methodSymbol?.Parameters.Select(param => new ParameterInfo
+            {
+                Name = param.Name,
+                Type = param.Type.ToDisplayString(SymbolDisplayFormat.MinimallyQualifiedFormat)
+            }).ToList() ?? new List<ParameterInfo>();
+        }
+
+        private string GetAccessModifier(ISymbol symbol)
+        {
+            switch (symbol.DeclaredAccessibility)
+            {
+                case Accessibility.Public:
+                    return "public";
+                case Accessibility.Private:
+                    return "private";
+                case Accessibility.Protected:
+                    return "protected";
+                case Accessibility.Internal:
+                    return "internal";
+                case Accessibility.ProtectedOrInternal:
+                    return "protected internal";
+                case Accessibility.ProtectedAndInternal:
+                    return "private protected";
+                default:
+                    return "unknown";
+            }
         }
 
         private static string GetFullyQualifiedName(ISymbol symbol)

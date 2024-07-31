@@ -304,4 +304,19 @@ namespace CodeMetricsExtractor
 
 
     }
+
+
+
+public static class SymbolExtensions
+    {
+        public static string ToSimpleMethodSignature(this IMethodSymbol methodSymbol)
+        {
+            var format = new SymbolDisplayFormat(
+                memberOptions: SymbolDisplayMemberOptions.IncludeParameters | SymbolDisplayMemberOptions.IncludeType,
+                parameterOptions: SymbolDisplayParameterOptions.IncludeName | SymbolDisplayParameterOptions.IncludeType,
+                genericsOptions: SymbolDisplayGenericsOptions.IncludeTypeParameters);
+
+            return methodSymbol.ToDisplayString(format);
+        }
+    }
 }
