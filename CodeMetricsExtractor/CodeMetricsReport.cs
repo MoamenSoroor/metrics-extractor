@@ -163,20 +163,15 @@ namespace CodeMetricsExtractor
         public bool MethodSymbolIsOverride { get; set; }
         public bool MethodSymbolIsGenericMethod { get; set; }
         public bool MethodSymbolIsAsync { get; set; }
-        public string MethodBody { get; set; }
+        //public string MethodBody { get; set; }
+        public string MethodFullBody { get; set; }
 
         public List<ReferenceInfo> References { get; set; } = new List<ReferenceInfo>();
 
 
-        public MethodMemberInfo(string keyFullName, ISymbol symbol, List<MetricInfo> metrics)
+        public MethodMemberInfo(string keyFullName, ISymbol symbol, List<MetricInfo> metrics) : base(keyFullName,symbol,metrics)
         {
-            var memberType = symbol.Kind.ToString();
-            var file = symbol.Locations.FirstOrDefault()?.SourceTree?.FilePath ?? "";
-            var line = (symbol.Locations.FirstOrDefault()?.GetLineSpan().StartLinePosition.Line + 1).ToString() ?? "";
-            KeyFullName = keyFullName;
-            MemberType = memberType;
-            File = file;
-            Line = line;
+            
 
             MethodSymbolContainingNamespace = symbol.ContainingNamespace?.ToDisplayString() ?? "";
             DocumentName = symbol.Locations.FirstOrDefault()?.SourceTree?.FilePath ?? "";
@@ -192,7 +187,8 @@ namespace CodeMetricsExtractor
             MethodSymbolIsOverride = symbol.IsOverride;
             MethodSymbolIsGenericMethod = (symbol as IMethodSymbol)?.IsGenericMethod ?? false;
             MethodSymbolIsAsync = (symbol as IMethodSymbol)?.IsAsync ?? false;
-            MethodBody = GetMethodBody(symbol as IMethodSymbol);
+            //MethodBody = GetMethodBody(symbol as IMethodSymbol);
+            MethodFullBody = MethodFullName +Environment.NewLine+ GetMethodBody(symbol as IMethodSymbol);
         }
 
         private static string GetFullyQualifiedName(ISymbol symbol)
