@@ -5,14 +5,12 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Text.Json;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CodeMetrics;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.FindSymbols;
-using static System.Net.WebRequestMethods;
+using Newtonsoft.Json;
 
 namespace CodeMetricsExtractor
 {
@@ -34,7 +32,11 @@ namespace CodeMetricsExtractor
             return report;
         }
 
-
+        static JsonSerializerSettings settings = new JsonSerializerSettings
+        {
+            TypeNameHandling = TypeNameHandling.All,
+            Formatting = Formatting.Indented
+        };
         public static string WriteMetricFile(ImmutableArray<(string, CodeAnalysisMetricData)> data)
         {
             var report = new CodeMetricsReport
@@ -47,7 +49,7 @@ namespace CodeMetricsExtractor
                 }).ToList()
             };
 
-            return JsonSerializer.Serialize(report, new JsonSerializerOptions { WriteIndented = true });
+            return JsonConvert.SerializeObject(report, settings);
         }
 
         private static MetricData ConvertMetricData(CodeAnalysisMetricData data)
@@ -134,12 +136,23 @@ namespace CodeMetricsExtractor
                 new MetricInfo("ExecutableLines", data.ExecutableLines.ToString(CultureInfo.InvariantCulture))
 #endif
             };
-
                 var memberType = data.Symbol.Kind.ToString();
-                var file = data.Symbol.Locations.FirstOrDefault()?.SourceTree?.FilePath ?? "";
-                var line = (data.Symbol.Locations.FirstOrDefault()?.GetLineSpan().StartLinePosition.Line + 1).ToString() ?? "";
 
-                var memberInfo = new MemberInfo(key, memberType, file, line);
+                MemberInfoBase memberInfo = null;
+                if (data.Symbol is IMethodSymbol methodSymbol)
+                {
+                    memberInfo = new MethodMemberInfo(key,data.Symbol, null);
+
+                }
+                else 
+                {
+                    memberInfo = new MemberInfoBase(key, data.Symbol, null);
+
+                }
+
+                memberInfo.SolutionName = Path.GetFileName(project.Solution.FilePath);
+                memberInfo.ProjectName = Path.GetFileName(project.Name);
+
 
                 if (toCalcRef.Contains(memberType))
                 {
@@ -169,6 +182,81 @@ namespace CodeMetricsExtractor
         }
 
 
+        public static Dictionary<string, MemberInfoBase> FlattenMetricsToMemeberInfo(Project project, CodeAnalysisMetricData metricsData, bool silent)
+        {
+            var flattenedMetrics = new Dictionary<string, MemberInfoBase>();
+
+
+            var solution = project.Solution;
+
+            string projectName = Path.GetFileName(project.FilePath);
+            FlattenMetricData(projectName, metricsData, flattenedMetrics, new List<string>());
+
+            return flattenedMetrics;
+
+            void FlattenMetricData(string projectName, CodeAnalysisMetricData data, Dictionary<string, MemberInfoBase> flattenedMetrics, List<string> pathSegments)
+            {
+                pathSegments.Add(data.Symbol.ToDisplayString(SymbolDisplayFormat.MinimallyQualifiedFormat));
+
+                var key = string.Join("::", pathSegments.Prepend(projectName));
+
+                var metrics = new List<MetricInfo>
+            {
+                new MetricInfo("MaintainabilityIndex", data.MaintainabilityIndex.ToString(CultureInfo.InvariantCulture)),
+                new MetricInfo("CyclomaticComplexity", data.CyclomaticComplexity.ToString(CultureInfo.InvariantCulture)),
+                new MetricInfo("ClassCoupling", data.CoupledNamedTypes.Count.ToString(CultureInfo.InvariantCulture)),
+                new MetricInfo("DepthOfInheritance", data.DepthOfInheritance?.ToString(CultureInfo.InvariantCulture)),
+#if LEGACY_CODE_METRICS_MODE
+                new MetricInfo("LinesOfCode", data.ExecutableLines.ToString(CultureInfo.InvariantCulture))
+#else
+                new MetricInfo("SourceLines", data.SourceLines.ToString(CultureInfo.InvariantCulture)),
+                new MetricInfo("ExecutableLines", data.ExecutableLines.ToString(CultureInfo.InvariantCulture))
+#endif
+            };
+                var memberType = data.Symbol.Kind.ToString();
+
+                MemberInfoBase memberInfo = null;
+                if (data.Symbol is IMethodSymbol methodSymbol)
+                {
+                    memberInfo = new MethodMemberInfo(key, data.Symbol, metrics);
+
+                }
+                else
+                {
+                    memberInfo = new MemberInfoBase(key, data.Symbol, metrics);
+
+                }
+
+                memberInfo.SolutionName = Path.GetFileName(project.Solution.FilePath);
+                memberInfo.ProjectName = Path.GetFileName(project.Name);
+
+
+                if (toCalcRef.Contains(memberType))
+                {
+                    if (!silent)
+                        Console.WriteLine($"Get References of Member: {key}");
+
+                    var references = GetReferences(data.Symbol, solution).Result;
+                    memberInfo.References = references;
+                }
+
+
+                //var entry = new MemberInfoWithMetrics
+                //{
+                //    MetricsInfo = metrics,
+                //    MemberInfo = memberInfo
+                //};
+
+                flattenedMetrics[key] = memberInfo;
+
+                foreach (var child in data.Children)
+                {
+                    FlattenMetricData(projectName, child, flattenedMetrics, new List<string>(pathSegments));
+                }
+            }
+
+
+        }
 
 
 

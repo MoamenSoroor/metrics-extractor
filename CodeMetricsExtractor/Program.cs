@@ -16,7 +16,8 @@ using System.Reflection;
 using Microsoft.CodeAnalysis.CodeMetrics;
 using System.Collections.Immutable;
 using System.Composition;
-using System.Text.Json;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 
 namespace CodeMetricsAnalyzer
 {
@@ -59,7 +60,12 @@ namespace CodeMetricsAnalyzer
         //    }
         //}
 
-        
+        // Define your settings to include type information
+        static JsonSerializerSettings settings = new JsonSerializerSettings
+        {
+            TypeNameHandling = TypeNameHandling.All,
+            Formatting = Formatting.Indented
+        };
 
         static string runId = Guid.NewGuid().ToString();
         public static async Task Main(string[] args)
@@ -118,10 +124,12 @@ namespace CodeMetricsAnalyzer
         {
             foreach (var oneProjectMetrics in data)
             {
-                var flatternMetrics = MetricsOutputConverter.FlattenMetrics(oneProjectMetrics.project, oneProjectMetrics.projectMetrics, silent);
+                //var flatternMetrics = MetricsOutputConverter.FlattenMetrics(oneProjectMetrics.project, oneProjectMetrics.projectMetrics, silent);
+                var flatternMetrics = MetricsOutputConverter.FlattenMetricsToMemeberInfo(oneProjectMetrics.project, oneProjectMetrics.projectMetrics, silent);
 
-                string toOutput = JsonSerializer.Serialize(flatternMetrics, new JsonSerializerOptions { WriteIndented = true });
+                string toOutput = JsonConvert.SerializeObject(flatternMetrics, settings);
 
+                
                 string outputFile = CreateOutputFile(oneProjectMetrics.project.Name);
 
                 System.IO.File.WriteAllText(outputFile, toOutput);
